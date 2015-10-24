@@ -2,7 +2,7 @@
 
 This repository contains the code for a Safari iOS 9+ content blocking app intended to block all things Trump.
 
-![Screenshots](screenshots.png "Screenshots of Trump Block")
+![Screenshots](screenshot.png "Screenshots of Trump Block")
 
 ## About
 
