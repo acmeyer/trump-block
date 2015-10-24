@@ -12,6 +12,8 @@ All it does is use iOS content blocking extension to remove any content from Saf
 
 I think we can all benefit from having a little less of The Donald in our lives.
 
+For more read my post about it [here](https://medium.com/@alexcmeyer/an-experiment-of-sorts-can-you-remove-trump-from-the-internet-d8647cefe340#.4zaelyemm)
+
 ## How to Use
 
 To use or check the app out, you need to follow these simple steps:
