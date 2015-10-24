@@ -1,0 +1,54 @@
+[
+ {
+    "action": {
+        "type": "css-display-none",
+        "selector": "a[href*='www.donaldjtrump'], a[href*='trump'], a[href*='Trump'], a[href*='DonaldTrump'], a[href*='donaldtrump'], a[href*='donaldTrump'], a[href*='Donaldtrump'], a[href*='realDonaldTrump']"
+    },
+    "trigger": {
+        "url-filter": ".*",
+        "unless-domain": ["*squarespace.com", "*trumpblockapp.com"]
+    }
+ },
+ {
+    "action": {
+        "type": "css-display-none",
+        "selector": "img[src*='www.donaldjtrump'], img[src*='trump'], img[src*='Trump'], img[src*='DonaldTrump'], img[src*='donaldtrump'], img[src*='donaldTrump'], img[src*='Donaldtrump'], img[src*='realDonaldTrump'], img[alt*='trump'], img[alt*='Trump'], img[alt*='DonaldTrump'], img[alt*='donaldtrump'], img[img*='donaldTrump'], img[alt*='Donaldtrump'], img[alt*='realDonaldTrump']"
+    },
+    "trigger": {
+        "url-filter": ".*",
+        "unless-domain": ["*squarespace.com", "*trumpblockapp.com"]
+    }
+ },
+ {
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": ".*donaldjtrump.*"
+    }
+ },
+ {
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": ".*realDonaldTrump.*"
+    }
+ },
+ {
+    "action": {
+        "type": "block"
+    },
+    "trigger": {
+        "url-filter": ".*trump.*"
+    }
+ },
+ {
+    "action": {
+        "type": "ignore-previous-rules"
+    },
+    "trigger": {
+        "url-filter": ".*trumpblockapp.*"
+    }
+ }
+]
